@@ -1,0 +1,21 @@
+/** @format */
+
+.song-list {
+  display: flex;
+  justify-content: space-between;
+}
+.album-cover {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+.add-to-like,
+.add-to-play {
+  cursor: pointer;
+}
+.add-to-like {
+  color: rgb(175, 175, 175);
+}
+.like-toggle {
+  color: aqua;
+}

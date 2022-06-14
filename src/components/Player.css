@@ -1,0 +1,10 @@
+/** @format */
+
+.player {
+  width: 1000px;
+  height: 60px;
+  background-color: #141414;
+  position: fixed;
+  bottom: 1px;
+  color: white;
+}

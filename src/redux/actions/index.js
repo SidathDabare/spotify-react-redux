@@ -1,6 +1,6 @@
 /** @format */
 
-// export const ADD_TO_FAVOURITES = "ADD_TO_FAVOURITES"
+export const ADD_TO_PLAYER = "ADD_TO_PLAYER"
 // export const REMOVE_FROM_FAVOURITES = "REMOVE_FROM_FAVOURITES"
 // export const SET_USERNAME = "SET_USERNAME"
 export const GET_SONGS = "GET_SONGS"
@@ -14,17 +14,17 @@ export const GET_SONGS_LOADING = "GET_SONGS_LOADING"
 //   }
 // }
 
-// export const addToCartActionWithThunk = (jobAdd) => {
-//   return async (dispatch, getState) => {
-//     console.log("I'm dispatching this from a function!")
-//     // I can do whatever I want here...
+export const addToPlayerWithThunk = (addToPlayer) => {
+  return async (dispatch, getState) => {
+    console.log("I'm dispatching this from a function!")
+    // I can do whatever I want here...
 
-//     dispatch({
-//       type: ADD_TO_FAVOURITES, // this is mandatory
-//       payload: jobAdd, // this is not a mandatory property for every action
-//     })
-//   }
-// }
+    dispatch({
+      type: ADD_TO_PLAYER, // this is mandatory
+      payload: addToPlayer, // this is not a mandatory property for every action
+    })
+  }
+}
 // export const jobsLoading = () => {
 //   return {
 //     type: GET_SONGS_LOADING,
